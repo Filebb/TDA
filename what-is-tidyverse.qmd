@@ -1,0 +1,44 @@
+# What is Tidyverse?
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+```
+
+```{r}
+#| echo: false
+#| column: margin
+knitr::include_graphics("img/hex_stickers/tidyverse.png", dpi = 270)
+```
+
+**Tidyverse** is a collection of R packages designed to manipulate and visualise
+a variety of different data formats. Tidiverse packages work well together by
+adopting a consistent approach from both a syntactical and an operational point
+of view.
+
+Quoting the official [website](https://www.tidyverse.org/)
+
+> The tidyverse is an opinionated collection of R packages designed for data
+> science. All packages share an underlying design philosophy, grammar, and data
+> structures.
+
+In other words, the mission of Tidyverse is to provide a toolbox of functions
+that are easy to remember and intuitive to use.
+
+## Tidy Data
+
+## Installing and Loading Tidyverse
+
+Installing `tidyverse` follows the usual procedure for installing a R package.
+
+```{r}
+#| eval: false
+install.packages("tidyverse")
+```
+
+Loading `tidyverse` in the current session produces the following message.
+
+```{r}
+library(tidyverse)
+```
