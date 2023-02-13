@@ -8,8 +8,7 @@ This book is still a work in progress.
 
 This book is a guide on how to use a collection of packages in the 
 [R programming language](https://www.r-project.org/)
-called [Tidyverse](https://www.tidyverse.org/) and the
-[RStudio IDE](https://posit.co/products/open-source/rstudio/) to analyse data.
+called [Tidyverse](https://www.tidyverse.org/) to analyse data.
 
 I will use packages from the official Tidyeverse ecosystem, or packages that
 interact well with it, to load, manipulate, wrangle and visualise different
@@ -21,7 +20,7 @@ decide whether to cover an introduction to the R language later in time.
 This work is for myself. It is the result of all the things that I learned about
 R, RStudio, and Tidyverse during the past years, and hopefully I will learn more
 while writing it. However, _if you happen to land here_, then feel free to have
-a look. And if find that there is a problem, then please submit an
+a look. And if you find that there is a problem, then please submit an
 [Issue](https://github.com/Filebb/TDA/issues) on the GitHub repository of the
 book.
 

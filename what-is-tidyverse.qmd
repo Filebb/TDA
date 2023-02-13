@@ -9,7 +9,9 @@ source("_common.R")
 ```{r}
 #| echo: false
 #| column: margin
-knitr::include_graphics("img/hex_stickers/tidyverse.png", dpi = 270)
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/tidyverse.png")
 ```
 
 **Tidyverse** is a collection of R packages designed to manipulate and visualise
@@ -23,8 +25,9 @@ Quoting the official [website](https://www.tidyverse.org/)
 > science. All packages share an underlying design philosophy, grammar, and data
 > structures.
 
-In other words, the mission of Tidyverse is to provide a toolbox of functions
-that are easy to remember and intuitive to use.
+In other words, the mission of Tidyverse is to provide a toolbox of functions,
+grouped by theme in different packages, that are easy to remember and intuitive
+to use.
 
 ## Tidy Data
 
@@ -42,3 +45,89 @@ Loading `tidyverse` in the current session produces the following message.
 ```{r}
 library(tidyverse)
 ```
+
+## Core Packages
+
+### ggplot2 {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/ggplot2.png")
+```
+
+### dplyr {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/dplyr.png")
+```
+
+### tibble {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/tibble.png")
+```
+
+### readr {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/readr.png")
+```
+
+### tidyr {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/tidyr.png")
+```
+
+### forecats {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/forcats.png")
+```
+
+### stringr {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/stringr.png")
+```
+
+### purrr {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/purrr.png")
+```
+
+## Other Packages
+
+## References {.unnumbered}

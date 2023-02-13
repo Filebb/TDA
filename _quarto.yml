@@ -1,16 +1,15 @@
 project:
-  type: book
-  output-dir: docs
+    type: book
+    output-dir: docs
 
 book:
-  title: "Tidy Data Analysis"
+    title: "Tidy Data Analysis"
 
-
-  chapters:
-    - index.qmd
-    - what-is-tidyverse.qmd
+    chapters:
+        - index.qmd
+        - what-is-tidyverse.qmd
 
 format:
-  html:
-    callout-appearance: simple
-    theme: cosmo
+    html:
+        theme: cosmo
+        highlight-style: atom-one
