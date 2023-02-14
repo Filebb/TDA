@@ -26,8 +26,8 @@ Quoting the official [website](https://www.tidyverse.org/)
 > structures.
 
 In other words, the mission of Tidyverse is to provide a toolbox of functions,
-grouped by theme in different packages, that are easy to remember and intuitive
-to use.
+grouped by theme in different packages, that are intuitive to use and easy to
+remember.
 
 ## Tidy Data
 
@@ -48,25 +48,19 @@ library(tidyverse)
 
 ## Core Packages
 
-### ggplot2 {.unnumbered}
+### readr {.unnumbered}
 
 ```{r}
 #| echo: false
 #| column: margin
 #| out-height: 115px
 #| out-width: 100px
-knitr::include_graphics(path = "img/hex_stickers/ggplot2.png")
+knitr::include_graphics(path = "img/hex_stickers/readr.png")
 ```
 
-### dplyr {.unnumbered}
+[Reference](https://readr.tidyverse.org)
 
-```{r}
-#| echo: false
-#| column: margin
-#| out-height: 115px
-#| out-width: 100px
-knitr::include_graphics(path = "img/hex_stickers/dplyr.png")
-```
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-import.pdf)
 
 ### tibble {.unnumbered}
 
@@ -78,15 +72,35 @@ knitr::include_graphics(path = "img/hex_stickers/dplyr.png")
 knitr::include_graphics(path = "img/hex_stickers/tibble.png")
 ```
 
-### readr {.unnumbered}
+[Reference](https://tibble.tidyverse.org)
+
+### dplyr {.unnumbered}
 
 ```{r}
 #| echo: false
 #| column: margin
 #| out-height: 115px
 #| out-width: 100px
-knitr::include_graphics(path = "img/hex_stickers/readr.png")
+knitr::include_graphics(path = "img/hex_stickers/dplyr.png")
 ```
+
+[Reference](https://dplyr.tidyverse.org)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
+
+### ggplot2 {.unnumbered}
+
+```{r}
+#| echo: false
+#| column: margin
+#| out-height: 115px
+#| out-width: 100px
+knitr::include_graphics(path = "img/hex_stickers/ggplot2.png")
+```
+
+[Reference](https://ggplot2.tidyverse.org)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
 
 ### tidyr {.unnumbered}
 
@@ -98,6 +112,10 @@ knitr::include_graphics(path = "img/hex_stickers/readr.png")
 knitr::include_graphics(path = "img/hex_stickers/tidyr.png")
 ```
 
+[Reference](https://tidyr.tidyverse.org)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/tidyr.pdf)
+
 ### forecats {.unnumbered}
 
 ```{r}
@@ -107,6 +125,10 @@ knitr::include_graphics(path = "img/hex_stickers/tidyr.png")
 #| out-width: 100px
 knitr::include_graphics(path = "img/hex_stickers/forcats.png")
 ```
+
+[Reference](https://forcats.tidyverse.org/)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf)
 
 ### stringr {.unnumbered}
 
@@ -118,6 +140,10 @@ knitr::include_graphics(path = "img/hex_stickers/forcats.png")
 knitr::include_graphics(path = "img/hex_stickers/stringr.png")
 ```
 
+[Reference](https://stringr.tidyverse.org/)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/strings.pdf)
+
 ### purrr {.unnumbered}
 
 ```{r}
@@ -128,6 +154,12 @@ knitr::include_graphics(path = "img/hex_stickers/stringr.png")
 knitr::include_graphics(path = "img/hex_stickers/purrr.png")
 ```
 
+[Reference](https://purrr.tidyverse.org/)
+
+[Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/purrr.pdf)
+
 ## Other Packages
 
 ## References {.unnumbered}
+
++ [An Antarctic Tour of the Tidyverse](https://slides.silviacanelon.com/tour-of-the-tidyverse-v2/), _Silvia Canelón_
