@@ -31,6 +31,40 @@ remember.
 
 ## Tidy Data
 
+Tidyverse's packages contains function that are designed to work with
+**tidy data**. This means that: 
+
+1. Each variable forms a column.
+
+2. Each observation forms a row.
+
+3. Each type of observational unit forms a table.
+
+A dataset that is not tidy is said to be **messy**.
+
+```{r}
+#| echo: false
+#| fig-cap: "[Image Credit](https://r4ds.hadley.nz/data-tidy.html#sec-tidy-data)"
+#| cap-location: margin
+knitr::include_graphics(path = "img/tidy_data.png")
+```
+
+Data is often messy (in a broad sense) because of many reasons: there can be
+missing values, variables are wrongly encoded, and more. But even if we focus
+on the above definition of tidy data, it is unrealistic to assume that it holds
+for every data source we will consider, not even the majority. However,
+Tidyverse includes functions that will help to transform a messy dataset into
+a tidy one.
+
+Why bother? Because Tidyverse functions simply won't work properly or won't work
+at all with messy data. So, why should we use Tidyverse, since it forces us to
+transform every data source into a tidy dataset, before we can evaluate
+numerical summaries, plot graphs, built models? Because this consistent approach
+will make our life easier on the long run. There is of course a learning curve,
+but after we understand the philosophy behind Tidyverse, and we practice a bit,
+then learning a new function or a new technique will be very easy. And the code
+we will write to operate on the data will speak for itself.
+
 ## Installing and Loading Tidyverse
 
 Installing `tidyverse` follows the usual procedure for installing a R package.
@@ -162,4 +196,8 @@ knitr::include_graphics(path = "img/hex_stickers/purrr.png")
 
 ## References {.unnumbered}
 
-+ [An Antarctic Tour of the Tidyverse](https://slides.silviacanelon.com/tour-of-the-tidyverse-v2/), _Silvia Canelón_
++ Canelón, Silvia (2022). [An Antarctic Tour of the Tidyverse](https://slides.silviacanelon.com/tour-of-the-tidyverse-v2/)
+
++ Wickham, Hadley (2013). [Tidy Data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf). _Journal of Statistical Software_
+
++ Wickham, Hadley & Çetinkaya-Rundel, Mine & Grolemund, Garrett (2023). [R for Data Science (2e)](https://r4ds.hadley.nz/)

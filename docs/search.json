@@ -11,7 +11,7 @@
     "href": "what-is-tidyverse.html#tidy-data",
     "title": "1  What is Tidyverse?",
     "section": "1.1 Tidy Data",
-    "text": "1.1 Tidy Data"
+    "text": "1.1 Tidy Data\nTidyverse’s packages contains function that are designed to work with tidy data. This means that:\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\nA dataset that is not tidy is said to be messy.\n\n\n\n\n\nImage Credit\n\n\n\n\nData is often messy (in a broad sense) because of many reasons: there can be missing values, variables are wrongly encoded, and more. But even if we focus on the above definition of tidy data, it is unrealistic to assume that it holds for every data source we will consider, not even the majority. However, Tidyverse includes functions that will help to transform a messy dataset into a tidy one.\nWhy bother? Because Tidyverse functions simply won’t work properly or won’t work at all with messy data. So, why should we use Tidyverse, since it forces us to transform every data source into a tidy dataset, before we can evaluate numerical summaries, plot graphs, built models? Because this consistent approach will make our life easier on the long run. There is of course a learning curve, but after we understand the philosophy behind Tidyverse, and we practice a bit, then learning a new function or a new technique will be very easy. And the code we will write to operate on the data will speak for itself."
   },
   {
     "objectID": "what-is-tidyverse.html#installing-and-loading-tidyverse",
@@ -39,6 +39,6 @@
     "href": "what-is-tidyverse.html#references",
     "title": "1  What is Tidyverse?",
     "section": "References",
-    "text": "References\n\nAn Antarctic Tour of the Tidyverse, Silvia Canelón"
+    "text": "References\n\nCanelón, Silvia (2022). An Antarctic Tour of the Tidyverse\nWickham, Hadley (2013). Tidy Data. Journal of Statistical Software\nWickham, Hadley & Çetinkaya-Rundel, Mine & Grolemund, Garrett (2023). R for Data Science (2e)"
   }
 ]

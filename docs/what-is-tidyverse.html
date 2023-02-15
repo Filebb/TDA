@@ -223,8 +223,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.</p>
 </blockquote>
 <p>In other words, the mission of Tidyverse is to provide a toolbox of functions, grouped by theme in different packages, that are intuitive to use and easy to remember.</p>
-<section id="tidy-data" class="level2" data-number="1.1">
+<section id="tidy-data" class="level2 page-columns page-full" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="tidy-data"><span class="header-section-number">1.1</span> Tidy Data</h2>
+<p>Tidyverse’s packages contains function that are designed to work with <strong>tidy data</strong>. This means that:</p>
+<ol type="1">
+<li><p>Each variable forms a column.</p></li>
+<li><p>Each observation forms a row.</p></li>
+<li><p>Each type of observational unit forms a table.</p></li>
+</ol>
+<p>A dataset that is not tidy is said to be <strong>messy</strong>.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="img/tidy_data.png" class="img-fluid figure-img" width="960"></p>
+<p></p><figcaption class="figure-caption margin-caption"><a href="https://r4ds.hadley.nz/data-tidy.html#sec-tidy-data">Image Credit</a></figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Data is often messy (in a broad sense) because of many reasons: there can be missing values, variables are wrongly encoded, and more. But even if we focus on the above definition of tidy data, it is unrealistic to assume that it holds for every data source we will consider, not even the majority. However, Tidyverse includes functions that will help to transform a messy dataset into a tidy one.</p>
+<p>Why bother? Because Tidyverse functions simply won’t work properly or won’t work at all with messy data. So, why should we use Tidyverse, since it forces us to transform every data source into a tidy dataset, before we can evaluate numerical summaries, plot graphs, built models? Because this consistent approach will make our life easier on the long run. There is of course a learning curve, but after we understand the philosophy behind Tidyverse, and we practice a bit, then learning a new function or a new technique will be very easy. And the code we will write to operate on the data will speak for itself.</p>
 </section>
 <section id="installing-and-loading-tidyverse" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="installing-and-loading-tidyverse"><span class="header-section-number">1.2</span> Installing and Loading Tidyverse</h2>
@@ -333,7 +352,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="references" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
 <ul>
-<li><a href="https://slides.silviacanelon.com/tour-of-the-tidyverse-v2/">An Antarctic Tour of the Tidyverse</a>, <em>Silvia Canelón</em></li>
+<li><p>Canelón, Silvia (2022). <a href="https://slides.silviacanelon.com/tour-of-the-tidyverse-v2/">An Antarctic Tour of the Tidyverse</a></p></li>
+<li><p>Wickham, Hadley (2013). <a href="https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf">Tidy Data</a>. <em>Journal of Statistical Software</em></p></li>
+<li><p>Wickham, Hadley &amp; Çetinkaya-Rundel, Mine &amp; Grolemund, Garrett (2023). <a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a></p></li>
 </ul>
 
 
